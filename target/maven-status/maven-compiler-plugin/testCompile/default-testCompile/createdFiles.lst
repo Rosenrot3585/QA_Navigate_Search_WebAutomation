@@ -1,0 +1,6 @@
+com\rosenrot\utils\Driver.class
+com\rosenrot\pages\HomePage.class
+com\rosenrot\tests\WikipediaTest.class
+com\rosenrot\pages\Page.class
+com\rosenrot\pages\ResultPage.class
+com\rosenrot\tests\WebTest.class

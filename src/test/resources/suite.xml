@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Automation Suite">
+    <parameter name="url" value="https://es.wikipedia.org/wiki/Wikipedia:Portada"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="expectedTitle" value="Microsoft"/>
+    <test name="Search Test">
+        <classes>
+            <class name="com.rosenrot.tests.WikipediaTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,3466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="22.667" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/suite.xml"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="c:\Users\Rosenrot\Documents\JAVA\Maven\webautomationglobantoct2023\target\test-classes;c:\Users\Rosenrot\Documents\JAVA\Maven\webautomationglobantoct2023\target\classes;C:\Users\Rosenrot\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Rosenrot\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-java\4.13.0\selenium-java-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.13.0\selenium-chrome-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Rosenrot\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Rosenrot\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Rosenrot\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Rosenrot\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Rosenrot\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Rosenrot\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.13.0\selenium-chromium-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.13.0\selenium-devtools-v115-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.13.0\selenium-devtools-v116-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.13.0\selenium-devtools-v117-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.13.0\selenium-devtools-v85-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.13.0\selenium-edge-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.13.0\selenium-firefox-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.13.0\selenium-ie-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Rosenrot\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Rosenrot\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Rosenrot\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Rosenrot\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Rosenrot\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Rosenrot\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.13.0\selenium-safari-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\testng\testng\7.5.1\testng-7.5.1.jar;C:\Users\Rosenrot\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Rosenrot\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Rosenrot\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Rosenrot\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Rosenrot\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Rosenrot\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar;C:\Users\Rosenrot\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="VE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Rosenrot\AppData\Local\Temp\surefire2870458520202286777\surefirebooter17844213087637153530.jar C:\Users\Rosenrot\AppData\Local\Temp\surefire2870458520202286777 2023-10-16T20-11-18_061-jvmRun1 surefire8989297722779660466tmp surefire_018056143872166503262tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="c:\Users\Rosenrot\Documents\JAVA\Maven\webautomationglobantoct2023\target\test-classes;c:\Users\Rosenrot\Documents\JAVA\Maven\webautomationglobantoct2023\target\classes;C:\Users\Rosenrot\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Rosenrot\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-java\4.13.0\selenium-java-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-api\4.13.0\selenium-api-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.13.0\selenium-chrome-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Rosenrot\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Rosenrot\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Rosenrot\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Rosenrot\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Rosenrot\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Rosenrot\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.13.0\selenium-chromium-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-json\4.13.0\selenium-json-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.13.0\selenium-manager-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.13.0\selenium-devtools-v115-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.13.0\selenium-devtools-v116-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.13.0\selenium-devtools-v117-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.13.0\selenium-devtools-v85-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.13.0\selenium-edge-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.13.0\selenium-firefox-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-http\4.13.0\selenium-http-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.13.0\selenium-ie-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.13.0\selenium-remote-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-buffer\4.1.96.Final\netty-buffer-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-codec-http\4.1.96.Final\netty-codec-http-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-codec\4.1.96.Final\netty-codec-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-handler\4.1.96.Final\netty-handler-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-common\4.1.96.Final\netty-common-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.96.Final\netty-transport-classes-epoll-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.96.Final\netty-transport-classes-kqueue-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-epoll\4.1.96.Final\netty-transport-native-epoll-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.96.Final\netty-transport-native-kqueue-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.96.Final\netty-transport-native-unix-common-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport\4.1.96.Final\netty-transport-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-resolver\4.1.96.Final\netty-resolver-4.1.96.Final.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Rosenrot\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Rosenrot\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Rosenrot\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Rosenrot\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Rosenrot\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Rosenrot\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Rosenrot\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Rosenrot\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-os\4.13.0\selenium-os-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.13.0\selenium-safari-driver-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\seleniumhq\selenium\selenium-support\4.13.0\selenium-support-4.13.0.jar;C:\Users\Rosenrot\.m2\repository\org\testng\testng\7.5.1\testng-7.5.1.jar;C:\Users\Rosenrot\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Rosenrot\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Rosenrot\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Rosenrot\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\Rosenrot\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\Rosenrot\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar;C:\Users\Rosenrot\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Rosenrot"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="c:\Users\Rosenrot\Documents\JAVA\Maven\webautomationglobantoct2023"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rosenrot\AppData\Local\Temp\surefire2870458520202286777\surefirebooter17844213087637153530.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-LTS-2513"/>
+    <property name="user.name" value="Rosenrot"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Rosenrot\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rosenrot\AppData\Local\Temp\"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="c:\Users\Rosenrot\Documents\JAVA\Maven\webautomationglobantoct2023"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\maven\apache-maven-4.0.0-alpha-7\bin;C:\Users\Rosenrot\Documents\Egg\chromedriver-win64;C:\Users\Rosenrot\Documents\Egg\geckodriver-v0.33.0-win64;C:\Users\Rosenrot\Documents\Egg\edgedriver_win64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\maven\apache-maven-4.0.0-alpha-7\bin;C:\Users\Rosenrot\Documents\Egg\chromedriver-win64;C:\Users\Rosenrot\Documents\Egg\geckodriver-v0.33.0-win64;C:\Users\Rosenrot\Documents\Egg\edgedriver_win64;;C:\Users\Rosenrot\Documents\Egg\chromedriver-win64;C:\Users\Rosenrot\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-LTS-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="searchTest[Microsoft](1)" classname="com.rosenrot.tests.WikipediaTest" time="11.175">
+    <system-out><![CDATA[Text to Search: Microsoft
+Ir al contenido
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Crear una cuenta
+--------------------
+Acceder
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Inicio
+--------------------
+Historia
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Otros productos
+--------------------
+
+--------------------
+Divisiones
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Cultura de negocios
+--------------------
+Cultura de usuario
+--------------------
+Campus de Redmond
+--------------------
+Asuntos corporativos
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Críticas y controversias
+--------------------
+Galería
+--------------------
+Referencias
+--------------------
+Enlaces externos
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Artículo
+--------------------
+Discusión
+--------------------
+Leer
+--------------------
+Editar
+--------------------
+Ver historial
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Coordenadas
+--------------------
+47°38′24″N 122°07′41″O
+--------------------
+mapa
+--------------------
+
+--------------------
+
+--------------------
+Redmond
+--------------------
+Estados Unidos
+--------------------
+Otros nombres
+--------------------
+Tipo
+--------------------
+Empresa de capital abierto
+--------------------
+Símbolo bursátil
+--------------------
+NASDAQ
+--------------------
+MSFT
+--------------------
+NYSE
+--------------------
+MSFT
+--------------------
+SEHK
+--------------------
+4338
+--------------------
+NASDAQ-100
+--------------------
+DJIA
+--------------------
+S&P 100
+--------------------
+S&P 500
+--------------------
+ISIN
+--------------------
+US5949181045
+--------------------
+Industria
+--------------------
+Tecnología de la información
+--------------------
+Forma legal
+--------------------
+Corporation
+--------------------
+
+--------------------
+Albuquerque
+--------------------
+Nuevo México
+--------------------
+Estados Unidos
+--------------------
+Bill Gates
+--------------------
+Paul Allen
+--------------------
+Sede central
+--------------------
+
+--------------------
+Microsoft Campus
+--------------------
+Redmond
+--------------------
+Condado de King
+--------------------
+Washington
+--------------------
+Estados Unidos
+--------------------
+Área de operación
+--------------------
+Personas clave
+--------------------
+Satya Nadella
+--------------------
+Brad Smith
+--------------------
+Bill Gates
+--------------------
+Marcas
+--------------------
+Windows
+--------------------
+Office
+--------------------
+Skype
+--------------------
+Visual Studio
+--------------------
+Bethesda
+--------------------
+Activision
+--------------------
+Blizzard Entertainment
+--------------------
+King
+--------------------
+Dynamics
+--------------------
+Xbox
+--------------------
+Minecraft
+--------------------
+Surface
+--------------------
+Productos
+--------------------
+Desarrollo de software
+--------------------
+Hardware
+--------------------
+Electrónica de consumo
+--------------------
+Servicio de red social
+--------------------
+Computación en la nube
+--------------------
+Videojuegos
+--------------------
+Internet
+--------------------
+Capital riesgo corporativo
+--------------------
+Servicios
+--------------------
+Azure
+--------------------
+Bing
+--------------------
+LinkedIn
+--------------------
+Yammer
+--------------------
+Microsoft 365
+--------------------
+OneDrive
+--------------------
+Outlook.com
+--------------------
+GitHub
+--------------------
+Microsoft Store
+--------------------
+Windows Update
+--------------------
+Xbox Game Pass
+--------------------
+Xbox Network
+--------------------
+Ingresos
+--------------------
+USD
+--------------------
+Beneficio económico
+--------------------
+Beneficio neto
+--------------------
+Activos
+--------------------
+Propietario
+--------------------
+The Vanguard Group
+--------------------
+BlackRock
+--------------------
+Cascade Investment
+--------------------
+Empleados
+--------------------
+Divisiones
+--------------------
+Microsoft Engineering Groups
+--------------------
+Microsoft Digital Crimes Unit
+--------------------
+Microsoft Press
+--------------------
+Xbox Game Studios
+--------------------
+Filiales
+--------------------
+GitHub
+--------------------
+LinkedIn
+--------------------
+Metaswitch
+--------------------
+Nuance Communications
+--------------------
+RiskIQ
+--------------------
+Skype Technologies
+--------------------
+Xamarin
+--------------------
+Xandr
+--------------------
+Coordenadas
+--------------------
+47°38′24″N 122°07′41″O
+--------------------
+Sitio web
+--------------------
+www.microsoft.com
+--------------------
+Traf-O-Data
+--------------------
+1
+--------------------
+editar datos en Wikidata
+--------------------
+NASDAQ
+--------------------
+MSFT
+--------------------
+NYSE
+--------------------
+MSFT
+--------------------
+SEHK
+--------------------
+4338
+--------------------
+/maɪˌkroʊˈsɔft/
+--------------------
+empresa tecnológica
+--------------------
+multinacional
+--------------------
+estadounidense
+--------------------
+software de computadora
+--------------------
+productos electrónicos de consumo
+--------------------
+computadoras personales
+--------------------
+campus de Microsoft
+--------------------
+Redmond
+--------------------
+Washington
+--------------------
+2
+--------------------
+Microsoft Windows
+--------------------
+Microsoft Office
+--------------------
+Internet Explorer
+--------------------
+Microsoft Edge
+--------------------
+consolas de videojuegos Xbox
+--------------------
+Microsoft Surface
+--------------------
+3
+--------------------
+4
+--------------------
+Paul Allen
+--------------------
+Bill Gates
+--------------------
+intérpretes de BASIC
+--------------------
+Altair 8800
+--------------------
+Intel 8080
+--------------------
+MS-DOS
+--------------------
+LinkedIn
+--------------------
+5
+--------------------
+Skype Technologies
+--------------------
+6
+--------------------
+ordenadores compatibles con IBM
+--------------------
+suites ofimáticas
+--------------------
+Android
+--------------------
+7
+--------------------
+Bing
+--------------------
+MSN
+--------------------
+Azure
+--------------------
+Visual Studio
+--------------------
+8
+--------------------
+Steve Ballmer
+--------------------
+Bill Gates
+--------------------
+consejero delegado
+--------------------
+9
+--------------------
+10
+--------------------
+Microsoft Surface
+--------------------
+Microsoft Mobile
+--------------------
+Nokia
+--------------------
+Satya Nadella
+--------------------
+computación en la nube
+--------------------
+inteligencia artificial
+--------------------
+11
+--------------------
+12
+--------------------
+13
+--------------------
+14
+--------------------
+Irlanda
+--------------------
+Alemania
+--------------------
+Bélgica
+--------------------
+Canadá
+--------------------
+Dinamarca
+--------------------
+Estados Unidos
+--------------------
+Finlandia
+--------------------
+Francia
+--------------------
+Italia
+--------------------
+México
+--------------------
+Austria
+--------------------
+Japón
+--------------------
+Países Bajos
+--------------------
+Reino Unido
+--------------------
+Suecia
+--------------------
+España
+--------------------
+Polonia
+--------------------
+Australia
+--------------------
+Argentina
+--------------------
+Brasil
+--------------------
+Nueva Zelanda
+--------------------
+República de la India
+--------------------
+15
+--------------------
+editar
+--------------------
+Historia de Microsoft
+--------------------
+editar
+--------------------
+
+--------------------
+Paul Allen
+--------------------
+Bill Gates
+--------------------
+Lakeside School
+--------------------
+Altair 8800
+--------------------
+Bill Gates
+--------------------
+Micro Instrumentation and Telemetry Systems
+--------------------
+Altair BASIC
+--------------------
+16
+--------------------
+Universidad de Harvard
+--------------------
+Albuquerque
+--------------------
+Nuevo México
+--------------------
+1975
+--------------------
+Paul Allen
+--------------------
+1 de noviembre
+--------------------
+1978
+--------------------
+Microsoft Japón
+--------------------
+17
+--------------------
+1 de enero
+--------------------
+1979
+--------------------
+Bellevue
+--------------------
+Washington
+--------------------
+11 de junio
+--------------------
+1980
+--------------------
+Steve Ballmer
+--------------------
+CEO
+--------------------
+COBOL
+--------------------
+Fortran
+--------------------
+18
+--------------------
+19
+--------------------
+compañía
+--------------------
+Xenix
+--------------------
+Santa Cruz Operation
+--------------------
+20
+--------------------
+Santa Cruz Operation
+--------------------
+DOS
+--------------------
+inglés
+--------------------
+21
+--------------------
+1981
+--------------------
+Digital Research
+--------------------
+IBM
+--------------------
+CP/M
+--------------------
+BIOS
+--------------------
+22
+--------------------
+23
+--------------------
+1983
+--------------------
+Microsoft Press
+--------------------
+24
+--------------------
+editar
+--------------------
+
+--------------------
+agosto
+--------------------
+1985
+--------------------
+IBM
+--------------------
+OS/2
+--------------------
+25
+--------------------
+20 de noviembre
+--------------------
+Microsoft Windows
+--------------------
+MS-DOS
+--------------------
+26
+--------------------
+13 de marzo
+--------------------
+1986
+--------------------
+Oferta Pública de Venta
+--------------------
+1987
+--------------------
+OEMs
+--------------------
+27
+--------------------
+1989
+--------------------
+Microsoft Word
+--------------------
+Microsoft Excel
+--------------------
+16
+--------------------
+22 de mayo
+--------------------
+1990
+--------------------
+Windows 3.0
+--------------------
+28
+--------------------
+modo protegido
+--------------------
+Intel 386
+--------------------
+28
+--------------------
+29
+--------------------
+30
+--------------------
+31
+--------------------
+WordPerfect
+--------------------
+Lotus 1-2-3
+--------------------
+32
+--------------------
+Novell
+--------------------
+núcleo
+--------------------
+33
+--------------------
+
+--------------------
+1993
+--------------------
+Windows NT 3.1
+--------------------
+29
+--------------------
+Windows 3.1
+--------------------
+29
+--------------------
+1995
+--------------------
+Windows 95
+--------------------
+29
+--------------------
+Menú Inicio
+--------------------
+plug-and-play
+--------------------
+34
+--------------------
+Internet Explorer
+--------------------
+35
+--------------------
+Windows 95 Plus!
+--------------------
+NCSA Mosaic
+--------------------
+Spyglass
+--------------------
+36
+--------------------
+Microsoft Bob
+--------------------
+37
+--------------------
+37
+--------------------
+Melinda Gates
+--------------------
+editar
+--------------------
+
+--------------------
+World Wide Web
+--------------------
+24 de agosto
+--------------------
+1995
+--------------------
+MSN
+--------------------
+38
+--------------------
+AOL
+--------------------
+39
+--------------------
+1996
+--------------------
+NBC
+--------------------
+televisión por cable
+--------------------
+MSNBC
+--------------------
+40
+--------------------
+Slate
+--------------------
+21 de diciembre
+--------------------
+2004
+--------------------
+The Washington Post
+--------------------
+41
+--------------------
+PDA
+--------------------
+Windows CE 1.0
+--------------------
+1997
+--------------------
+42
+--------------------
+Internet Explorer 4.0
+--------------------
+Mac OS
+--------------------
+Windows
+--------------------
+Netscape Navigator
+--------------------
+43
+--------------------
+Departamento de Justicia de los Estados Unidos
+--------------------
+1994
+--------------------
+44
+--------------------
+webmail
+--------------------
+Hotmail
+--------------------
+45
+--------------------
+AOL
+--------------------
+45
+--------------------
+
+--------------------
+Alemania
+--------------------
+1998
+--------------------
+Steve Ballmer
+--------------------
+46
+--------------------
+Windows 98
+--------------------
+47
+--------------------
+5 de mayo
+--------------------
+Windows 98 SE
+--------------------
+Windows NT
+--------------------
+Internet Explorer 5
+--------------------
+48
+--------------------
+49
+--------------------
+1999
+--------------------
+dólares
+--------------------
+AT&T Corp
+--------------------
+Windows CE
+--------------------
+50
+--------------------
+mensajería instantánea
+--------------------
+MSN Messenger
+--------------------
+Windows Live Messenger
+--------------------
+51
+--------------------
+
+--------------------
+52
+--------------------
+53
+--------------------
+17 de febrero
+--------------------
+2000
+--------------------
+Windows 2000
+--------------------
+54
+--------------------
+Active Directory
+--------------------
+55
+--------------------
+56
+--------------------
+Windows Media Player
+--------------------
+Windows NT
+--------------------
+54
+--------------------
+3 de abril
+--------------------
+Estados Unidos
+--------------------
+46
+--------------------
+2001
+--------------------
+57
+--------------------
+Windows ME
+--------------------
+14 de septiembre
+--------------------
+58
+--------------------
+59
+--------------------
+59
+--------------------
+60
+--------------------
+25 de octubre
+--------------------
+2001
+--------------------
+Windows XP
+--------------------
+61
+--------------------
+62
+--------------------
+63
+--------------------
+62
+--------------------
+64
+--------------------
+65
+--------------------
+66
+--------------------
+67
+--------------------
+
+--------------------
+Xbox
+--------------------
+8 de noviembre
+--------------------
+68
+--------------------
+Nintendo
+--------------------
+Sony
+--------------------
+69
+--------------------
+24 de abril
+--------------------
+2003
+--------------------
+70
+--------------------
+70
+--------------------
+71
+--------------------
+2004
+--------------------
+Unión Europea
+--------------------
+72
+--------------------
+73
+--------------------
+editar
+--------------------
+2006
+--------------------
+Ray Ozzie
+--------------------
+74
+--------------------
+75
+--------------------
+76
+--------------------
+77
+--------------------
+29 de enero
+--------------------
+2007
+--------------------
+Windows Vista
+--------------------
+78
+--------------------
+
+--------------------
+Windows Vista
+--------------------
+78
+--------------------
+Windows Aero
+--------------------
+79
+--------------------
+80
+--------------------
+81
+--------------------
+82
+--------------------
+Unión Europea
+--------------------
+Estados Unidos
+--------------------
+Japón
+--------------------
+Australia
+--------------------
+83
+--------------------
+84
+--------------------
+Windows XP
+--------------------
+Windows Defender
+--------------------
+85
+--------------------
+86
+--------------------
+87
+--------------------
+Microsoft Office 2007
+--------------------
+88
+--------------------
+1 de febrero
+--------------------
+2008
+--------------------
+Yahoo
+--------------------
+89
+--------------------
+89
+--------------------
+90
+--------------------
+Yahoo
+--------------------
+91
+--------------------
+editar
+--------------------
+Google
+--------------------
+Yahoo!
+--------------------
+OPA
+--------------------
+92
+--------------------
+Bing
+--------------------
+93
+--------------------
+94
+--------------------
+editar
+--------------------
+
+--------------------
+Computex
+--------------------
+Windows 8
+--------------------
+Microsoft Surface
+--------------------
+Windows 8.1
+--------------------
+octava generación
+--------------------
+Xbox
+--------------------
+Xbox One
+--------------------
+95
+--------------------
+Mojang
+--------------------
+Minecraft
+--------------------
+editar
+--------------------
+
+--------------------
+Microsoft Lumia 650
+--------------------
+Phil Spencer
+--------------------
+96
+--------------------
+Intel
+--------------------
+Microsoft Azure
+--------------------
+
+--------------------
+Buzz Aldrin
+--------------------
+Microsoft HoloLens
+--------------------
+97
+--------------------
+editar
+--------------------
+
+--------------------
+Xbox Series X
+--------------------
+Microsoft Edge
+--------------------
+pandemia de COVID-19
+--------------------
+Mixer
+--------------------
+Facebook Gaming
+--------------------
+TikTok
+--------------------
+administración de Trump
+--------------------
+ByteDance
+--------------------
+Donald Trump
+--------------------
+Departamento del Tesoro de los Estados Unidos
+--------------------
+xCloud
+--------------------
+iOS
+--------------------
+consola de juegos
+--------------------
+ZeniMax Media
+--------------------
+Bethesda Softworks
+--------------------
+Xbox Game Studios
+--------------------
+Xbox Series X
+--------------------
+Xbox Series S
+--------------------
+Nuance Communications
+--------------------
+COVID-19
+--------------------
+Windows 11
+--------------------
+Clipchamp
+--------------------
+comunicado de prensa
+--------------------
+cifrado de extremo a extremo
+--------------------
+Microsoft Teams
+--------------------
+Activision Blizzard
+--------------------
+Warcraft
+--------------------
+Diablo
+--------------------
+Call of Duty
+--------------------
+StarCraft
+--------------------
+Candy Crush Saga
+--------------------
+Crash Bandicoot
+--------------------
+Spyro The Dragon
+--------------------
+Skylanders
+--------------------
+Overwatch
+--------------------
+Meta Platforms
+--------------------
+98
+--------------------
+99
+--------------------
+100
+--------------------
+101
+--------------------
+Sting
+--------------------
+Davos
+--------------------
+Suiza
+--------------------
+102
+--------------------
+103
+--------------------
+Activision Blizzard
+--------------------
+Call of Duty
+--------------------
+World of Warcraft
+--------------------
+Diablo
+--------------------
+104
+--------------------
+editar
+--------------------
+Anexo:Productos de Microsoft
+--------------------
+Microsoft Quantum Development Kit
+--------------------
+Biztalk Server
+--------------------
+105
+--------------------
+Exchange
+--------------------
+106
+--------------------
+Internet Security and Acceleration Server
+--------------------
+107
+--------------------
+Operations Manager
+--------------------
+108
+--------------------
+Sharepoint Portal Server
+--------------------
+109
+--------------------
+SQL Server
+--------------------
+110
+--------------------
+Systems Management Server
+--------------------
+111
+--------------------
+Microsoft Project
+--------------------
+112
+--------------------
+Microsoft Security Essentials
+--------------------
+Microsoft Visual Studio
+--------------------
+Visual Basic
+--------------------
+Visual C++
+--------------------
+Visual C#
+--------------------
+Visual J#
+--------------------
+113
+--------------------
+Microsoft Internet Explorer
+--------------------
+Windows
+--------------------
+Apple Macintosh
+--------------------
+Solaris Unix
+--------------------
+Microsoft Edge
+--------------------
+114
+--------------------
+Microsoft Edge
+--------------------
+Windows
+--------------------
+macOS
+--------------------
+Linux
+--------------------
+EdgeHTML
+--------------------
+Blink
+--------------------
+115
+--------------------
+Microsoft Xbox
+--------------------
+Xbox 360
+--------------------
+Xbox One
+--------------------
+sexta
+--------------------
+séptima
+--------------------
+octava
+--------------------
+Microsoft PixelSense
+--------------------
+Skype
+--------------------
+VoIP
+--------------------
+Videollamada
+--------------------
+116
+--------------------
+Campaign Cloud
+--------------------
+Outlook
+--------------------
+Office
+--------------------
+editar
+--------------------
+Zune
+--------------------
+Reproductor de música digital
+--------------------
+Windows Live Messenger
+--------------------
+117
+--------------------
+Microsoft Encarta
+--------------------
+118
+--------------------
+119
+--------------------
+Windows Phone
+--------------------
+Windows 10 Mobile
+--------------------
+120
+--------------------
+Microsoft Works
+--------------------
+121
+--------------------
+Microsoft Digital Image
+--------------------
+122
+--------------------
+editar
+--------------------
+editar
+--------------------
+
+--------------------
+Microsoft Office
+--------------------
+Word
+--------------------
+Access
+--------------------
+Excel
+--------------------
+hoja de cálculo
+--------------------
+Outlook
+--------------------
+Exchange Server
+--------------------
+PowerPoint
+--------------------
+Publisher
+--------------------
+Visio
+--------------------
+Project
+--------------------
+MapPoint
+--------------------
+InfoPath
+--------------------
+OneNote
+--------------------
+123
+--------------------
+Multiplan
+--------------------
+CP/M
+--------------------
+17
+--------------------
+124
+--------------------
+125
+--------------------
+Microsoft Dynamics NAV
+--------------------
+Planificación de recursos empresariales
+--------------------
+Axapta
+--------------------
+Solomon
+--------------------
+126
+--------------------
+127
+--------------------
+Mac OS X
+--------------------
+Office para Mac
+--------------------
+editar
+--------------------
+128
+--------------------
+129
+--------------------
+Windows
+--------------------
+MSN
+--------------------
+Microsoft Visual Studio
+--------------------
+APIs de Windows
+--------------------
+Marketing
+--------------------
+Microsoft HoloLens
+--------------------
+Windows Holographic
+--------------------
+gamepads
+--------------------
+Surface
+--------------------
+Xbox
+--------------------
+130
+--------------------
+editar
+--------------------
+LinkedIn
+--------------------
+Lynda.com
+--------------------
+SlideShare
+--------------------
+editar
+--------------------
+Skype
+--------------------
+luxemburguesa
+--------------------
+Internet
+--------------------
+VoIP
+--------------------
+editar
+--------------------
+Xbox Game Studios
+--------------------
+Xbox
+--------------------
+Windows
+--------------------
+Xbox Game Studios
+--------------------
+Age of Empires
+--------------------
+Banjo-Kazooie
+--------------------
+Battletoads
+--------------------
+Bilnx
+--------------------
+Crackdown
+--------------------
+Fable
+--------------------
+Forza Motorsport
+--------------------
+Gears of War
+--------------------
+Halo
+--------------------
+Killer Instinct
+--------------------
+Minecraft
+--------------------
+Ori
+--------------------
+Perfect Dark
+--------------------
+Zoo Tycoon
+--------------------
+State of Decay
+--------------------
+Solitario Microsoft
+--------------------
+Microsoft Flight Simulator
+--------------------
+editar
+--------------------
+
+--------------------
+editar
+--------------------
+Microsoft Mobile
+--------------------
+Finlandia
+--------------------
+Lumia
+--------------------
+Nokia
+--------------------
+131
+--------------------
+editar
+--------------------
+
+--------------------
+RedWest campus
+--------------------
+Redmond
+--------------------
+desarrolladores de software
+--------------------
+IBM
+--------------------
+132
+--------------------
+133
+--------------------
+134
+--------------------
+135
+--------------------
+136
+--------------------
+
+--------------------
+RedWest campus
+--------------------
+2006
+--------------------
+Bill Gates
+--------------------
+ONGs
+--------------------
+137
+--------------------
+Estados Unidos
+--------------------
+138
+--------------------
+139
+--------------------
+Melinda Gates
+--------------------
+Premio Príncipe de Asturias
+--------------------
+140
+--------------------
+editar
+--------------------
+
+--------------------
+141
+--------------------
+MSDN
+--------------------
+Microsoft Systems Journal
+--------------------
+beta
+--------------------
+142
+--------------------
+143
+--------------------
+sitio web
+--------------------
+foro
+--------------------
+wiki
+--------------------
+144
+--------------------
+145
+--------------------
+Usenet
+--------------------
+grupos de noticias
+--------------------
+146
+--------------------
+Microsoft Most Valuable Professional
+--------------------
+147
+--------------------
+148
+--------------------
+editar
+--------------------
+
+--------------------
+Redmond
+--------------------
+Seattle
+--------------------
+149
+--------------------
+132
+--------------------
+132
+--------------------
+editar
+--------------------
+editar
+--------------------
+Consejo de administración
+--------------------
+Steve Ballmer
+--------------------
+Dina Dublon
+--------------------
+Bill Gates
+--------------------
+Raymond Gilmartin
+--------------------
+Reed Hastings
+--------------------
+David Marquardt
+--------------------
+Charles Noski
+--------------------
+Helmut Panke
+--------------------
+Jon Shirley
+--------------------
+150
+--------------------
+accionistas
+--------------------
+contabilidad
+--------------------
+auditoría
+--------------------
+151
+--------------------
+152
+--------------------
+
+--------------------
+marketing
+--------------------
+153
+--------------------
+154
+--------------------
+editar
+--------------------
+13 de marzo
+--------------------
+1986
+--------------------
+Oferta Pública de Venta
+--------------------
+155
+--------------------
+156
+--------------------
+156
+--------------------
+157
+--------------------
+158
+--------------------
+159
+--------------------
+1999
+--------------------
+2003
+--------------------
+157
+--------------------
+156
+--------------------
+160
+--------------------
+editar
+--------------------
+2001
+--------------------
+Los Angeles Gay & Lesbian Center
+--------------------
+161
+--------------------
+2005
+--------------------
+LGBT
+--------------------
+cita requerida
+--------------------
+162
+--------------------
+163
+--------------------
+Washington
+--------------------
+Ken Hutcherson
+--------------------
+Ralph Reed
+--------------------
+Century Strategies
+--------------------
+164
+--------------------
+165
+--------------------
+166
+--------------------
+167
+--------------------
+168
+--------------------
+Estados Unidos
+--------------------
+169
+--------------------
+170
+--------------------
+editar
+--------------------
+1982
+--------------------
+O
+--------------------
+171
+--------------------
+1987
+--------------------
+Scott Baker
+--------------------
+172
+--------------------
+173
+--------------------
+174
+--------------------
+¿Hasta dónde quieres llegar hoy?
+--------------------
+175
+--------------------
+176
+--------------------
+2005
+--------------------
+177
+--------------------
+
+--------------------
+Windows
+--------------------
+editar
+--------------------
+Críticas a Microsoft
+--------------------
+1980
+--------------------
+Adoptar, extender y extinguir
+--------------------
+178
+--------------------
+179
+--------------------
+180
+--------------------
+181
+--------------------
+182
+--------------------
+183
+--------------------
+Seattle Times
+--------------------
+184
+--------------------
+185
+--------------------
+software libre
+--------------------
+Intel
+--------------------
+Trusted Computing
+--------------------
+cita requerida
+--------------------
+Richard Stallman
+--------------------
+Free Software Foundation
+--------------------
+186
+--------------------
+Gestión de derechos digitales
+--------------------
+Coste total de propiedad
+--------------------
+uso legítimo
+--------------------
+187
+--------------------
+derechos de autor
+--------------------
+Caso Pónosov
+--------------------
+censura de Internet en la República Popular China
+--------------------
+Google
+--------------------
+Yahoo
+--------------------
+Cisco
+--------------------
+AOL
+--------------------
+Skype
+--------------------
+gobierno de China
+--------------------
+188
+--------------------
+189
+--------------------
+Human Rights Watch
+--------------------
+Reporteros sin fronteras
+--------------------
+190
+--------------------
+PRISM
+--------------------
+Agencia de Seguridad Nacional
+--------------------
+Estados Unidos
+--------------------
+Agencia Central de Inteligencia
+--------------------
+Edward Snowden
+--------------------
+datos acerca de la vigilancia mundial
+--------------------
+191
+--------------------
+192
+--------------------
+Syrian Electronic Army
+--------------------
+FBI
+--------------------
+Hotmail
+--------------------
+cita requerida
+--------------------
+Google
+--------------------
+Gmail
+--------------------
+Internet
+--------------------
+Google
+--------------------
+Yahoo
+--------------------
+Apple
+--------------------
+193
+--------------------
+editar
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+editar
+--------------------
+↑
+--------------------
+«Microsoft Corporation Form 10-K»
+--------------------
+U.S. Securities and Exchange Commission
+--------------------
+↑
+--------------------
+«Microsoft Corporation | History, Products, & Facts | Britannica»
+--------------------
+↑
+--------------------
+«The Global 2000 2021»
+--------------------
+↑
+--------------------
+«Market Cap Stock Rankings»
+--------------------
+↑
+--------------------
+«Microsoft finalizes $26 billion LinkedIn acquisition, reveals what’s next»
+--------------------
+↑
+--------------------
+«The global marketplace for Flexible Office Space & Office Space Rental»
+--------------------
+↑
+--------------------
+«Microsoft gets real, admits its device share is just 14%»
+--------------------
+↑
+--------------------
+«And Microsoft Is Giving Up On The Software Business!»
+--------------------
+↑
+--------------------
+«And Microsoft Is Giving Up On The Software Business!»
+--------------------
+↑
+--------------------
+«Microsoft To Acquire Peach Networks»
+--------------------
+↑
+--------------------
+«Microsoft shares at new high as cloud focus pays off»
+--------------------
+↑
+--------------------
+«Microsoft's cloud focus could mean yet more layoffs»
+--------------------
+↑
+--------------------
+«Microsoft supera a Apple como la mayor compañía cotizada»
+--------------------
+ISSN
+--------------------
+1134-6582
+--------------------
+↑
+--------------------
+«Microsoft supera el billón de dólares en Wall Street»
+--------------------
+↑
+--------------------
+«Infographic: American Companies That Failed i China»
+--------------------
+a
+--------------------
+b
+--------------------
+«Información para estudiandes, claves históricas de Microsoft»
+--------------------
+el original
+--------------------
+a
+--------------------
+b
+--------------------
+«microsoft's timeline from 1975 - 1990»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Microsoft»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«History of Microcomputers 1977-1980»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Qué significa Xenix - Información y significado de Xenix»
+--------------------
+↑
+--------------------
+«El éxito de Microsoft se fraguó cuando IBM decidió usar su sistema operativo»
+--------------------
+↑
+--------------------
+«Booting Your PC: Getting Up Close & Personal With A Computer’s BIOS»
+--------------------
+↑
+--------------------
+«MS DOS and PC DOS»
+--------------------
+el original
+--------------------
+↑
+--------------------
+Microsoft to Microsoft disk operating system (MS-DOS)
+--------------------
+↑
+--------------------
+«Techworld Article:OS/2 users must look elsewhere»
+--------------------
+IDG
+--------------------
+↑
+--------------------
+«Windows: 20 años en las tiendas»
+--------------------
+↑
+--------------------
+«Microsoft Systems Journal»
+--------------------
+a
+--------------------
+b
+--------------------
+«El exitoso Windows 3.0»
+--------------------
+
+--------------------
+a
+--------------------
+b
+--------------------
+c
+--------------------
+d
+--------------------
+«Definición de Windows»
+--------------------
+↑
+--------------------
+«History»
+--------------------
+OS/2 el original
+--------------------
+↑
+--------------------
+A Peek at Office Upgrade
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Microsoft Company 15 September 1975»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«noticias Crónicas de la Informática»
+--------------------
+↑
+--------------------
+«Bill Gates: Cómo hizo historia 2004»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Hasta la vista, Netscape»
+--------------------
+El Mundo (España)
+--------------------
+↑
+--------------------
+«25 AÑOS DE ‘MS’»
+--------------------
+El Mundo (España)
+--------------------
+a
+--------------------
+b
+--------------------
+«Los 10 grandes fracasos»
+--------------------
+↑
+--------------------
+«MSN Encarta»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Sala de prensa de Microsoft»
+--------------------
+↑
+--------------------
+«Microsoft timeline from 1991»
+--------------------
+el original
+--------------------
+↑
+--------------------
+"The Washington Post" compra revista online "Slate"
+--------------------
+↑
+--------------------
+«Preguntas y respuestas de Windows CE»
+--------------------
+↑
+--------------------
+2 de enero
+--------------------
+2008
+--------------------
+Adiós al viejo rey de todos los navegadores
+--------------------
+↑
+--------------------
+«'Caso Microsoft': Diario de un proceso interminable»
+--------------------
+a
+--------------------
+b
+--------------------
+Microsoft compra Hotmail
+--------------------
+a
+--------------------
+b
+--------------------
+14 de enero
+--------------------
+2000
+--------------------
+«Bill Gates cede la dirección de Microsoft a su «número dos» Steve Ballmer»
+--------------------
+El Mundo
+--------------------
+↑
+--------------------
+«Windows 98 ya «navega» desde ayer en las computadoras españolas»
+--------------------
+El Mundo
+--------------------
+↑
+--------------------
+«Versiones de Windows (de Windows 1.0 a Windows 98 SE).»
+--------------------
+↑
+--------------------
+«Definición de Windows 98»
+--------------------
+↑
+--------------------
+«Una de patentes: AT&T vs Microsoft»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Windows Live Messenger»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Historia de Windows»
+--------------------
+↑
+--------------------
+«Windows history»
+--------------------
+a
+--------------------
+b
+--------------------
+Microsoft lanza su Windows 2000 en medio de la polémica
+--------------------
+El Mundo (España)
+--------------------
+18 de febrero
+--------------------
+2000
+--------------------
+↑
+--------------------
+«El éxito del mercado de servidores: Windows 2000 (2000 - 2001)»
+--------------------
+↑
+--------------------
+«Definición de Directorio Activo»
+--------------------
+↑
+--------------------
+28 de noviembre
+--------------------
+2000
+--------------------
+Microsoft apela a los tribunales para evitar su división en varias compañías
+--------------------
+El Mundo (España)
+--------------------
+↑
+--------------------
+«Windows Millenium - ¿Qué es? ¿Me funcionará?»
+--------------------
+a
+--------------------
+b
+--------------------
+El fracaso de Windows Millennium Edition (2000, 2001)
+--------------------
+↑
+--------------------
+Bill Gates anuncia que abandonará en dos años la gestión diaria de Microsoft para dedicarse a su fundación
+--------------------
+Libertad Digital
+--------------------
+14 de junio
+--------------------
+2007
+--------------------
+↑
+--------------------
+Microsoft lanza Windows XP
+--------------------
+DiarioTi
+--------------------
+26 de octubre
+--------------------
+2001
+--------------------
+el original
+--------------------
+a
+--------------------
+b
+--------------------
+«Historia de Windows»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Windows XP y su nueva interfaz»
+--------------------
+La Nación
+--------------------
+↑
+--------------------
+«Curso de Windows XP, Novedades de Windows»
+--------------------
+↑
+--------------------
+Microsoft advierte de otro fallo de seguridad "importante" en Windows XP y Server 2003
+--------------------
+Libertad Digital
+--------------------
+12 de mayo
+--------------------
+2004
+--------------------
+↑
+--------------------
+Microsoft alerta de seis fallos de seguridad en Windows, tres de ellos críticos
+--------------------
+ABC
+--------------------
+11 de julio
+--------------------
+2007
+--------------------
+↑
+--------------------
+«Información de sistemas operativos»
+--------------------
+el original
+--------------------
+↑
+--------------------
+Lanzamiento de Xbox el 8 de noviembre
+--------------------
+diario TI
+--------------------
+21 de mayo
+--------------------
+2001
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Xbox 360 en el mercado de videojuegos»
+--------------------
+a
+--------------------
+b
+--------------------
+Microsoft lanza el nuevo Windows Server 2003, dos veces más veloz que la versión anterior
+--------------------
+↑
+--------------------
+Las 10 ventajas principales de Windows Server 2003
+--------------------
+↑
+--------------------
+Sanciones de la Unión Europea a Microsoft
+--------------------
+↑
+--------------------
+Microsoft y la CE acuerdan el nombre de la versión reducida de Windows
+--------------------
+↑
+--------------------
+Un largo adiós: Bill Gates prepara su retiro en dos años
+--------------------
+↑
+--------------------
+Microsoft retrasa el lanzamiento de Windows Vista para particulares hasta enero de 2007
+--------------------
+↑
+--------------------
+¿Nuevo retraso de Windows Vista?
+--------------------
+↑
+--------------------
+Windows Vista podría retrasarse hasta mediados de 2007
+--------------------
+a
+--------------------
+b
+--------------------
+Diferentes ediciones de Windows Vista
+--------------------
+↑
+--------------------
+Windows Vista Home Premium
+--------------------
+↑
+--------------------
+Windows Vista Business
+--------------------
+↑
+--------------------
+Windows Vista Ultimate
+--------------------
+↑
+--------------------
+Windows Vista Enterprise
+--------------------
+↑
+--------------------
+Windows Vista Starter
+--------------------
+↑
+--------------------
+Windows Vista Business N
+--------------------
+↑
+--------------------
+Windows Vista, más seguro
+--------------------
+↑
+--------------------
+«Estadísticas de fallos XP Vs. Vista durante los seis primeros meses de Vista»
+--------------------
+↑
+--------------------
+«Comparando el índice de fallos de seguridad en XP+Vista y Mac OS X»
+--------------------
+↑
+--------------------
+Office 2007 de Microsoft®
+--------------------
+a
+--------------------
+b
+--------------------
+Microsoft quiere comprar a Yahoo
+--------------------
+↑
+--------------------
+Yahoo dice que su directorio estudiará propuesta de Microsoft
+--------------------
+Archivado
+--------------------
+Wayback Machine
+--------------------
+↑
+--------------------
+Rechaza Yahoo oferta de Microsoft
+--------------------
+Archivado
+--------------------
+Wayback Machine
+--------------------
+↑
+--------------------
+«Acuerdo entre Microsoft y Yahoo»
+--------------------
+↑
+--------------------
+«Microsoft y Yahoo! se alían para plantar cara a Google»
+--------------------
+↑
+--------------------
+«Choice. Value. Innovation.»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Microsoft lanza el 22 de noviembre su nueva consola Xbox»
+--------------------
+↑
+--------------------
+«Microsoft anuncia 3000 nuevos despidos.»
+--------------------
+↑
+--------------------
+«Microsoft toma la decisión de desarrollar sus propios Chips ARM»
+--------------------
+↑
+--------------------
+«Microsoft Reports Slowest Revenue Growth in Five Years»
+--------------------
+↑
+--------------------
+«Microsoft registra en el tercer trimestre el crecimiento más lento de los últimos cinco años»
+--------------------
+↑
+--------------------
+«Microsoft buys near 4% stake in London Stock Exchange Group as part of 10-year cloud deal»
+--------------------
+↑
+--------------------
+«Microsoft to Lay Off 10,000 Workers as It Looks to Trim Costs»
+--------------------
+ISSN
+--------------------
+0362-4331
+--------------------
+↑
+--------------------
+«Microsoft under fire for hosting private Sting concert for its execs in Davos the night before announcing mass layoffs»
+--------------------
+↑
+--------------------
+«Microsoft announces new multibillion-dollar investment in ChatGPT-maker OpenAI»
+--------------------
+↑
+--------------------
+«Microsoft completes Activision Blizzard acquisition, Call of Duty now part of Xbox»
+--------------------
+↑
+--------------------
+«¿Qué es BizTalk Server 2006?»
+--------------------
+↑
+--------------------
+«Exchange 2007 Preguntas frecuentes»
+--------------------
+↑
+--------------------
+«Internet Security and Acceleration (ISA) Server»
+--------------------
+↑
+--------------------
+«Descripción de Microsoft Operations Manager 2000»
+--------------------
+↑
+--------------------
+«Introducción a Microsoft Office SharePoint Server 2007»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Información del Producto de Microsoft SQL Server 2005»
+--------------------
+↑
+--------------------
+«Descripción general de Systems Management Server 2003»
+--------------------
+↑
+--------------------
+«Preguntas más frecuentes acerca de Microsoft Office Project 2007»
+--------------------
+el original
+--------------------
+↑
+--------------------
+Visual Studio 2005
+--------------------
+↑
+--------------------
+Página de Internet Explorer
+--------------------
+↑
+--------------------
+Descarga el navegador web Microsoft Edge | Microsoft
+--------------------
+↑
+--------------------
+Skype ha sido comprado por Microsoft
+--------------------
+↑
+--------------------
+«Windows Live»
+--------------------
+el original
+--------------------
+↑
+--------------------
+Página de inicio de Encarta
+--------------------
+↑
+--------------------
+Web de Encarta
+--------------------
+↑
+--------------------
+«Smartphones y Pocket PC con tecnología Windows Mobile 5.0»
+--------------------
+↑
+--------------------
+«Información del producto Works 9»
+--------------------
+↑
+--------------------
+«Microsoft Picture It! Premium 2005»
+--------------------
+↑
+--------------------
+«Preguntas más frecuentes acerca de Office Professional Enterprise Edition 2003»
+--------------------
+↑
+--------------------
+Microsoft adquiere una empresa de software por 1.100 millones de dólares
+--------------------
+Archivado
+--------------------
+Wayback Machine
+--------------------
+↑
+--------------------
+Microsoft adquiere Navision por 1.500 millones de euros
+--------------------
+↑
+--------------------
+«Microsoft Dynamics AX: ERP y el mercado de las integraciones, implementaciones y customizaciones nuevamente»
+--------------------
+el original
+--------------------
+↑
+--------------------
+MacBU moving into Microsoft Business Division
+--------------------
+↑
+--------------------
+«Ejecutivos de Microsoft»
+--------------------
+↑
+--------------------
+«Microsoft College Careers - Platform Products and Services Division»
+--------------------
+↑
+--------------------
+«Microsoft fusiona sus equipos de Windows y dispositivos con Panos Panay al frente»
+--------------------
+↑
+--------------------
+Nokia | Nokia
+--------------------
+a
+--------------------
+b
+--------------------
+c
+--------------------
+El guardián gallego de Bill Gates
+--------------------
+↑
+--------------------
+Marlin Eller
+--------------------
+Barbarians Led by Bill Gates: Microsoft from inside
+--------------------
+ISBN
+--------------------
+0-8050-5754-4
+--------------------
+
+--------------------
+I Sing the Body Electronic: A Year With Microsoft on the Multimedia Frontier
+--------------------
+ISBN
+--------------------
+0-670-84875-1
+--------------------
+ISBN
+--------------------
+0-684-85531-3
+--------------------
+
+--------------------
+↑
+--------------------
+Microsoft tests its own 'dog food'
+--------------------
+↑
+--------------------
+Square Manhole Covers and Crazy Questions
+--------------------
+Archivado
+--------------------
+Wayback Machine
+--------------------
+↑
+--------------------
+Microsoft PuzzleHunt Redmond, WA, slightly more often than yearly
+--------------------
+↑
+--------------------
+Microsoft and Its Employees Surpass $2.5 Billion Mark Through Charitable Donations
+--------------------
+↑
+--------------------
+«Informe sobre la política ciudadana de Microsoft»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Bill Gates, el hombre más generoso de 2004»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Príncipe de Asturias para Bill Gates por «generoso»»
+--------------------
+↑
+--------------------
+The Microsoft Store and Visitor Center at Building 92
+--------------------
+↑
+--------------------
+Suscripciones a MSDN
+--------------------
+↑
+--------------------
+Microsoft Systems Journal Homepage
+--------------------
+↑
+--------------------
+Microsoft's Channel 9 and Cultural Rules
+--------------------
+↑
+--------------------
+«on10.net»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Mensajes del grupo de Usenet microsoft.public.es.windowsxp»
+--------------------
+el original
+--------------------
+↑
+--------------------
+Que es un MVP?
+--------------------
+↑
+--------------------
+Como logro ser reconocido como MVP?
+--------------------
+↑
+--------------------
+«El cuartel de Bill Gates»
+--------------------
+↑
+--------------------
+Microsoft PressPass – Microsoft Board of Directors
+--------------------
+↑
+--------------------
+Microsoft 2005 Proxy Statement
+--------------------
+↑
+--------------------
+Microsoft Corporation Corporate Governance Guidelines
+--------------------
+↑
+--------------------
+Microsoft 2004 Citizenship Report
+--------------------
+↑
+--------------------
+Microsoft Corporation Annual Report 2005
+--------------------
+↑
+--------------------
+«Microsoft Stock and Shareholder Frequently Asked Questions»
+--------------------
+a
+--------------------
+b
+--------------------
+c
+--------------------
+«Microsoft Pre-Split and Post-Split Closing Stock Prices»
+--------------------
+el original
+--------------------
+a
+--------------------
+b
+--------------------
+Los millonarios ex-Microsoft vuelven al ruedo político/económico
+--------------------
+Archivado
+--------------------
+Wayback Machine
+--------------------
+↑
+--------------------
+Microsoft elimina las stock options y con ellas el sueño de aspirantes a «millonario»
+--------------------
+↑
+--------------------
+"The Microsoft Millionaires Come of Age
+--------------------
+↑
+--------------------
+Bill Gates y Steve Ballmer explican su venta masiva de acciones de Microsoft | Economía | elmundo.es
+--------------------
+↑
+--------------------
+Premio para Microsoft por apoyo a homosexuales
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Gay, Lesbian, Bisexual and Transgender Employees at Microsoft»
+--------------------
+↑
+--------------------
+«Corporate Equality Index: A Report Card on Gay, Lesbian, Bisexual and Transgender Equality in Corporate America»
+--------------------
+el original
+--------------------
+Internet Archive
+--------------------
+↑
+--------------------
+Payments to Reed sully Microsoft
+--------------------
+↑
+--------------------
+«How Microsoft Changed Its Mind»
+--------------------
+↑
+--------------------
+Microsoft respaldará los derechos de los gay
+--------------------
+↑
+--------------------
+Anti-gay church vows to take control of Microsoft
+--------------------
+el original
+--------------------
+↑
+--------------------
+Microsoft Caves on Gay Rights
+--------------------
+↑
+--------------------
+Bill Gates pide más visas de trabajo para extranjeros
+--------------------
+el original
+--------------------
+↑
+--------------------
+Gates Rakes Congress on H1B Visa Cap
+--------------------
+↑
+--------------------
+«Logotipo Bibblet de Microsoft, creado en 1982»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Microsoft Logo Design and History»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Microsoft 1978»
+--------------------
+↑
+--------------------
+«Logotipo Pacman, logotipo usado por Microsoft desde el año 1986»
+--------------------
+↑
+--------------------
+«Logotipo "Pacman" con el eslogan "Where do you want to go today?"»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«The Rise and Rise of the Redmond Empire»
+--------------------
+↑
+--------------------
+«Logotipo de Microsoft con el Slogan "Your potential, our passion"»
+--------------------
+el original
+--------------------
+↑
+--------------------
+MIntel exec: MS wanted to 'extend, embrace and extinguish' competition
+--------------------
+el original
+--------------------
+↑
+--------------------
+Novell inicia acciones antimonopolio contra Microsoft por WordPerfect
+--------------------
+↑
+--------------------
+Microsoft Corp. Licenses Burst.com Patents & Settles Suit
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Commission Decision of 24.03.2004 relating to a proceeding under Article 82 of the EC Treaty (Case COMP/C-3/37.792 Microsoft)»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Guía para entender el juicio a Microsoft»
+--------------------
+el original
+--------------------
+↑
+--------------------
+Microsoft defiende ante la UE que todos los sistemas operativos tienen sus propios reproductores
+--------------------
+↑
+--------------------
+«Inside Microsoft - A 'Velvet Sweatshop' or a High-Tech Heaven?»
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Microsoft Systems Journal 1997, Editor's note»
+--------------------
+
+--------------------
+↑
+--------------------
+«¿Puede confiar en su computadora?»
+--------------------
+↑
+--------------------
+«DRM: Digital Rights or Digital Restrictions?»
+--------------------
+↑
+--------------------
+Google, Yahoo y Microsoft colaboran con la censura china
+--------------------
+el original
+--------------------
+↑
+--------------------
+«Google, Microsoft y Yahoo! bloquean en China la prensa extranjera»
+--------------------
+↑
+--------------------
+«China: Internet Companies Aid Censorship»
+--------------------
+↑
+--------------------
+«Edward Snowden says motive behind leaks was to expose 'surveillance state'»
+--------------------
+↑
+--------------------
+«Edward Snowden comes forward as source of NSA leaks»
+--------------------
+↑
+--------------------
+«La privacidad de Microsoft en entredicho: pagos al FBI y accesos a la cuenta de un blogger sospechoso de filtraciones»
+--------------------
+editar
+--------------------
+Página web oficial
+--------------------
+Página web de Windows
+--------------------
+Fundación Bill y Melinda Gates
+--------------------
+Control de autoridades
+--------------------
+
+--------------------
+Q2283
+--------------------
+
+--------------------
+Microsoft
+--------------------
+Q2283
+--------------------
+
+--------------------
+Categoría:Microsoft
+--------------------
+WorldCat
+--------------------
+VIAF
+--------------------
+148809628
+--------------------
+ISNI
+--------------------
+0000 0001 2181 3404
+--------------------
+BNE
+--------------------
+XX121178
+--------------------
+BNF
+--------------------
+120673486
+--------------------
+(data)
+--------------------
+CANTIC
+--------------------
+981058512489506706
+--------------------
+GND
+--------------------
+5003949-0
+--------------------
+LCCN
+--------------------
+n86810571
+--------------------
+NDL
+--------------------
+00322150
+--------------------
+NKC
+--------------------
+kn20020321575
+--------------------
+NLA
+--------------------
+35928074
+--------------------
+NLI
+--------------------
+987007265465105171
+--------------------
+CiNii
+--------------------
+DA04359585
+--------------------
+SUDOC
+--------------------
+030109434
+--------------------
+ULAN
+--------------------
+500333090
+--------------------
+BIBSYS
+--------------------
+90182985
+--------------------
+Open Library
+--------------------
+OL4943148A
+--------------------
+Britannica
+--------------------
+url
+--------------------
+IRS
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Categorías
+--------------------
+Empresas cotizadas en la Bolsa de Nueva York
+--------------------
+Microsoft
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+Licencia Creative Commons Atribución-CompartirIgual 4.0
+--------------------
+
+--------------------
+términos de uso
+--------------------
+política de privacidad
+--------------------
+Fundación Wikimedia
+--------------------
+Política de privacidad
+--------------------
+Acerca de Wikipedia
+--------------------
+Limitación de responsabilidad
+--------------------
+Código de conducta
+--------------------
+Desarrolladores
+--------------------
+Estadísticas
+--------------------
+Declaración de cookies
+--------------------
+Versión para móviles
+--------------------
+
+--------------------
+
+--------------------
+
+--------------------
+]]></system-out>
+  </testcase>
+</testsuite>
